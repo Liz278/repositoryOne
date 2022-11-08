@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Campos en Formularios</h1>
     <form action="#">
@@ -37,38 +39,54 @@
             <label for="">Semana para la entrega</label>
             <input type="week">
         </div>
-            <label for="">Acepta Términos y Condiciones?</label>
-            <input type="checkbox">
+        <label for="">Acepta Términos y Condiciones?</label>
+        <input type="checkbox">
         <div>
             <label for="">C.C</label>
-            <input type="radio" name="Document"><br>
-            <label for="">T.I</label name >
-            <input type="radio" name="Document"><br>
-            <label for="">C.E</label>         
-            <input type="radio" name="Document"><br>
+            <input type="radio" name="tipo_doc"><br>
+            <label for="">T.I</label name>
+            <input type="radio" name="tipo_doc"><br>
+            <label for="">C.E</label>
+            <input type="radio" name="tipo_doc"><br>
         </div>
 
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="">Su Color Favorito</label>
+            <input type="color">
         </div>
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="">Seleccione su Archivo</label>
+            <input type="file">
         </div>
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="">Campo Oculto</label>
+            <input type="hidden">
         </div>
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="">Volumen</label>
+            <input value=¨100¨ type="range">
         </div>
         <div>
-            <label for=""></label>
-            <input type="text">
+            <label for="">Hora</label>
+            <input type="time">
         </div>
+
+        <div>
+            <label for="">Mis Opciones</label>
+            <Select>
+                <option value="">Opción 1</option>
+                <option value="">Opción 2</option>
+                <option value="">Opción 3</option>
+                <option value="">Opción 4</option>
+                <optgroup>
+                    <option value="">A</A></option>
+                    <option value="">B</option>
+                    <option value="">C</option>
+                </optgroup>
+            </Select>
+        </div>
+        <button type="Submit">Validar</button>
     </form>
-    
 </body>
+
 </html>
