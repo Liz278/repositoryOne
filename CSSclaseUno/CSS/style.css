@@ -6,7 +6,16 @@
 }
 .miNavBar {
     background-color: rgb(58, 160, 243);
-}
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20201101/pngtree-plant-shadow-with-green-wallpaper-svg-image_450856.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* backround-attachment: fixed;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    }
 .miNavBar {
     display: flex;
 }
@@ -33,5 +42,12 @@
     border-radius: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+.texto1 {
+    text-align: center;
+    margin: 5% 150px;
+}
+.imgSlider {
+    width: 100%;
 }
 
